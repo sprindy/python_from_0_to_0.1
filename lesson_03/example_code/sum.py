@@ -8,17 +8,17 @@ sum = 0
 i = 1
 #循环执行100次
 while (i <= 100):
-    sum += i
-    i += 1
-
+    i = i + 1
+    sum = sum + i
 #打印求和结果
-print(sum)
+print('1到101的和sum是', sum)
 
 #重新赋值为0
 sum = 0
+print(sum)
 #循环从1加到100
 for k in range(1, 101):
-    sum += k
+    sum = k + sum
 
 #打印求和结果
-print(sum)
+print('1到100的和sum是', sum)
