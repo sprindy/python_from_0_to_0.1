@@ -21,26 +21,56 @@ print(data.info())
 
 # read regions csv file to variable
 regions = pd.read_csv(regions_file)
-
+# print(regions.info())
+# print(regions.head(3))
 # merge two cvs file/variable to one
 merged = pd.merge(data, regions, on='NOC', how='left')
-print(merged.info())
+# print(merged.info())
+# print(merged.head(3))
+
 
 # select the Femal Gold athlete
+# goldMedals = merged[(merged.Medal == 'Gold')]
 goldMedals = merged[(merged.Medal == 'Gold') & (merged.Team == 'China')]
-# goldMedals = merged[(merged.Medal == 'Gold') & (merged.Sex == 'F')]
+# goldMedals = merged[(merged.Medal == 'Gold') & (merged.Sex == 'M')]
+# goldMedals = merged['Medal'] == 'Gold'][merged['Sex'] == 'F']
 # print(goldMedals.head(5))
+# print(goldMedals.info())
+
 
 # plot a bar with Year/Age
 plt.figure(figsize=(12, 8))
 plt.tight_layout()
-# #1 counter plot
-# sns.countplot(goldMedals['Age'])
-# #2 scatter plot
-sns.scatterplot(goldMedals['Year'], goldMedals['Age'])
-# #3 bar plot
-# plt.bar(goldMedals['Year'], goldMedals['Age'])
 plt.title('Athlete\'s Age According to Year')
 plt.xlabel('Year')
 plt.ylabel('Age')
-plt.show()
+# rotate xlable for 30 degree
+plt.xticks(rotation=30)
+
+# 选择哪种plot绘图
+plot_index = 11
+if (1 == plot_index):
+    # #1 bar plot
+    plt.bar(goldMedals['Year'], goldMedals['Age'])
+elif (2 == plot_index):
+    # #2 scatter plot
+    plt.scatter(goldMedals['Year'], goldMedals['Age'])
+elif (3 == plot_index):
+    # #3 pie plot
+    teamPie = goldMedals['Team'][goldMedals['Year'] == 2004]
+    print(teamPie)
+    # plt.pie(x=teamPie., labels=teamPie)
+elif (11 == plot_index):
+    # #11 counter plot
+    sns.countplot(goldMedals['Age'])
+elif (12 == plot_index):
+    # #12 scatter plot
+    sns.scatterplot(goldMedals['Year'], goldMedals['Age'])
+elif (13 == plot_index):
+    olderThan45 = goldMedals['Sport'][goldMedals['Age'] > 45]
+    # [goldMedals['Sex'] == 'F']
+    # print(olderThan45)
+    sns.countplot(olderThan45)
+
+if (0 != plot_index):
+    plt.show()
