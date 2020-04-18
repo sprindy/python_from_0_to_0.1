@@ -1,4 +1,4 @@
-
+import re
 
 text_file = 'a.txt'
 books_list = [
@@ -18,3 +18,19 @@ books_list = [
 'Timothy', 'Titus', 'Philemon', 'Hebrews',
 'James', 'Peter', 'John', 'Jude',
 'Revelation']
+
+cnt = 0
+with open(text_file, 'r') as f:
+    lines = f.readlines()
+    # print(lines)
+    for line in lines:
+        # line_new = re.sub(r' |, |\. ', "", line)
+        line_new = re.sub('[^a-zA-Z]', "", line)
+        # print(line)
+        # print(line_new)
+        # print(len(books_list))
+        for i in range(len(books_list)):
+            m = re.search(books_list[i], line_new, re.I)
+            if m is not None:
+                cnt = cnt + 1
+                print(cnt, i, m.group(), books_list[i])
