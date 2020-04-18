@@ -23,6 +23,7 @@ sensor_data = pd.DataFrame(columns=header)
 log_file = 'log.txt'
 log_exelc_file = 'ts.xlsx'
 
+# 利用python自带的工具绘图
 def plot_outside_excel():
     key_words = "a_sample"
     a_sample_log = []
@@ -73,6 +74,7 @@ def plot_outside_excel():
     plt.ylabel('Index')
     plt.show()
 
+# 在表格里面插入散点图
 def plot_inside_excel():
     # wb = Workbook()
     wb = load_workbook(filename = log_exelc_file)
@@ -83,15 +85,19 @@ def plot_inside_excel():
     chart.style = 12
     chart.x_axis.title = 'Index'
     chart.y_axis.title = 'Real sample value of X'
+    # 增加行列的高度和宽度
     chart.height = chart.height + 8
     chart.width = chart.width + 24
 
+    # 横坐标
     xvalues = Reference(ws, min_col=1, min_row=2, max_row=ws.max_row)
-    # for i in range(2, 4):
+    # 纵坐标
     values = Reference(ws, min_col=11, min_row=2, max_row=ws.max_row)
+    # 序列1
     series = Series(values, xvalues, title="serial 1", title_from_data=False)
     chart.series.append(series)
 
+    # 从A10插入图表
     ws.add_chart(chart, "A10")
 
     wb.save(log_exelc_file)
