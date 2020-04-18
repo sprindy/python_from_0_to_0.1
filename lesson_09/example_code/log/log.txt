@@ -1,0 +1,236 @@
+[00125/01]  42:11.890  [INVN](0x1)set_client_req 0x0(0) 0xB24C5458(513) rm=0  1453  sns
+[00125/01]  42:11.890  [INVN]inst not created  1505  sns
+[00125/00]  42:11.891  [INVN]icm4x6xx_inst_init enter  0245  sns
+[00125/01]  42:11.892  [INVN]invn product 2, whoami 0x5c, hi_res 0, hi_range 0  0275  sns
+[00125/01]  42:11.892  [INVN]a/g res_idx: 4 7, a/g fsr: 0 0, a/g res*1M:4790 1065  0293  sns
+[00125/02]  42:11.892  [INVN]dae_valid(1): disable flushing_fifo  0434  sns
+[00125/02]  42:11.892  [INVN]irq_trigger_type=3  0455  sns
+[00125/00]  42:11.895  [INVN]check reset done 1 times  1697  sns
+[00125/02]  42:11.905  [INVN]acc bw 0  1376  sns
+[00125/01]  42:11.917  [INVN]bus type(1, 0:I2C/1:SPI/3:I3C), MAX bus speed: 9600 KHz  0489  sns
+[00125/02]  42:11.917  [INVN]dae_valid(1): init dae if  0556  sns
+[00125/02]  42:11.917  [INVN]dae_if_deinit  1017  sns
+[00125/02]  42:11.917  [INVN]dae_if_init: rc=6, state(ag/t)=0/0, usable(ag/t)=0/0, ag flush_hw=0  0997  sns
+[00125/02]  42:11.918  [INVN]unkown msg id 1026  3980  sns
+[00125/01]  42:11.991  [INVN](1)hb 1 hfp 1 bp 0 fp -1294967296 sr 100/100  0539  sns
+[00125/01]  42:11.991  [INVN]flush_only 0 max_batch 0  0607  sns
+[00125/01]  42:11.991  [INVN]A: rr 100/100 sr 100/100 flush_period 3031578947 gated client 0  1120  sns
+[00125/01]  42:11.991  [INVN]flush_only 1 max_batch 1  0607  sns
+[00125/01]  42:11.991  [INVN]G: rr 0/100 sr 0/100 flush_period 0  1129  sns
+[00125/01]  42:11.991  [INVN]T: rr 0 sr 0 flush_period 0  1211  sns
+[00125/01]  42:11.991  [INVN]a ngatd/gatd 1/0, g client 0, md client/en 0/0  1237  sns
+[00125/01]  42:11.991  [INVN]passive: client 0x0  1256  sns
+[00125/01]  42:11.991  [INVN]drv version 0x013012  4486  sns
+[00125/02]  42:11.992  [INVN]reg int pin  3484  sns
+[00125/01]  42:11.992  [INVN]a/g desire en fifo 1 0, max_wmk 200  4508  sns
+[00125/01]  42:11.992  [INVN]desire sample/report/wakeup_sdc rate 100/100 100/100 100/100  4515  sns
+[00125/01]  42:11.992  [INVN]best match odr 12(11th)  4531  sns
+[00125/02]  42:11.992  [INVN]a discard 11  4599  sns
+[00125/01]  42:11.992  [INVN]desire/dae wmk 12 12  4638  sns
+[00125/01]  42:11.992  [INVN]desire a/g 1 0, fifo format 1  4665  sns
+[00125/00]  42:11.992  [INVN]reconfig_hw enter with reset fifo 0  2086  sns
+[00125/02]  42:11.995  [INVN]set_acc odr 12:15th, fdr 39:39, rc 0  1056  sns
+[00125/02]  42:11.995  [INVN]set_gyro odr 12:15th, fdr 39:39, rc 0  1110  sns
+[00125/02]  42:11.996  [INVN]acc bw 0  1376  sns
+[00125/02]  42:11.997  [INVN]acc pwr mode 3  0711  sns
+[00125/02]  42:11.998  [INVN]a/g/t desire/actual pub 1 0 0/1 0 0, irq rdy 0, 1st_sample 1, rc 0  2277  sns
+[00125/00]  42:11.998  [INVN]a cfg_evt, new:1, sr 0:12, wmk 0:12  0823  sns
+[00125/01]  42:12.000  [INVN](0x1)Cal event, new 0, ts b51a4d2f6  0688  sns
+[00125/02]  42:12.000  [INVN]received int reg event  4013  sns
+[00125/01]  42:12.875  [INVN]int TS: b52a506e3  4081  sns
+[00125/00]  42:12.875  [INVN]flush 0 ff cnt: 96  3799  sns
+[00125/00]  42:12.875  [INVN]valid buf_len/packet_cnt 96 12  2993  sns
+[00125/01]  42:12.876  [INVN]packet/match cnt: 12 12, LPF: 25  2858  sns
+[00125/01]  42:12.876  [INVN]pre_record_ts: b518bc6e3, pre_meas_intvl: 80842  2777  sns
+[00125/01]  42:12.876  [INVN]meas_intvl 80842 est_intvl 80842   2806  sns
+[00125/01]  42:12.876  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.876  [INVN]A discard 11   2593  sns
+[00125/02]  42:12.876  [INVN]a_sample 1, TS: b51a336e3, LSB: 36 -52 2074, 0  2611  sns
+[00125/01]  42:12.876  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.876  [INVN]A discard 10   2593  sns
+[00125/02]  42:12.876  [INVN]a_sample 2, TS: b51baa6e3, LSB: 43 -58 2044, 0  2611  sns
+[00125/01]  42:12.876  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.876  [INVN]A discard 9   2593  sns
+[00125/02]  42:12.876  [INVN]a_sample 3, TS: b51d216e3, LSB: 41 -52 2041, 0  2611  sns
+[00125/01]  42:12.876  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.876  [INVN]A discard 8   2593  sns
+[00125/02]  42:12.876  [INVN]a_sample 4, TS: b51e986e3, LSB: 41 -51 2042, 0  2611  sns
+[00125/01]  42:12.876  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.876  [INVN]A discard 7   2593  sns
+[00125/02]  42:12.876  [INVN]a_sample 5, TS: b5200f6e3, LSB: 41 -55 2041, 0  2611  sns
+[00125/01]  42:12.876  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.876  [INVN]A discard 6   2593  sns
+[00125/02]  42:12.876  [INVN]a_sample 6, TS: b521866e3, LSB: 40 -57 2047, 0  2611  sns
+[00125/01]  42:12.876  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.876  [INVN]A discard 5   2593  sns
+[00125/02]  42:12.877  [INVN]a_sample 7, TS: b522fd6e3, LSB: 39 -55 2041, 0  2611  sns
+[00125/01]  42:12.877  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.877  [INVN]A discard 4   2593  sns
+[00125/02]  42:12.877  [INVN]a_sample 8, TS: b524746e3, LSB: 38 -55 2038, 0  2611  sns
+[00125/01]  42:12.877  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.877  [INVN]A discard 3   2593  sns
+[00125/02]  42:12.877  [INVN]a_sample 9, TS: b525eb6e3, LSB: 39 -55 2039, 0  2611  sns
+[00125/01]  42:12.877  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.877  [INVN]A discard 2   2593  sns
+[00125/02]  42:12.877  [INVN]a_sample 10, TS: b527626e3, LSB: 43 -53 2044, 0  2611  sns
+[00125/01]  42:12.877  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/00]  42:12.877  [INVN]A discard 1   2593  sns
+[00125/02]  42:12.877  [INVN]a_sample 11, TS: b528d96e3, LSB: 39 -52 2039, 0  2611  sns
+[00125/01]  42:12.877  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:12.877  [INVN]a_sample 12, TS: b52a506e3, LSB: 38 -58 2038, 3  2611  sns
+[00125/01]  42:13.828  [INVN]int TS: b53bc6eb7  4081  sns
+[00125/00]  42:13.828  [INVN]flush 0 ff cnt: 96  3799  sns
+[00125/00]  42:13.830  [INVN]valid buf_len/packet_cnt 96 12  2993  sns
+[00125/01]  42:13.830  [INVN]packet/match cnt: 12 12, LPF: 25  2858  sns
+[00125/01]  42:13.830  [INVN]pre_record_ts: b52a506e3, pre_meas_intvl: 80842  2777  sns
+[00125/01]  42:13.830  [INVN]meas_intvl 80311 est_intvl 80311   2806  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 13, TS: b52bc4f8a, LSB: 42 -54 2038, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 14, TS: b52d39831, LSB: 38 -55 2042, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 15, TS: b52eae0d8, LSB: 41 -51 2041, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 16, TS: b5302297f, LSB: 42 -57 2041, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 17, TS: b53197226, LSB: 43 -56 2039, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 18, TS: b5330bacd, LSB: 42 -52 2044, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 19, TS: b53480374, LSB: 39 -55 2042, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 20, TS: b535f4c1b, LSB: 41 -55 2048, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 21, TS: b537694c2, LSB: 40 -55 2043, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.830  [INVN]a_sample 22, TS: b538ddd69, LSB: 41 -52 2042, 3  2611  sns
+[00125/01]  42:13.830  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.831  [INVN]a_sample 23, TS: b53a52610, LSB: 40 -53 2042, 3  2611  sns
+[00125/01]  42:13.831  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:13.831  [INVN]a_sample 24, TS: b53bc6eb7, LSB: 40 -54 2041, 3  2611  sns
+[00125/01]  42:14.782  [INVN]int TS: b54d3d7ed  4081  sns
+[00125/00]  42:14.782  [INVN]flush 0 ff cnt: 96  3799  sns
+[00125/00]  42:14.782  [INVN]valid buf_len/packet_cnt 96 12  2993  sns
+[00125/01]  42:14.782  [INVN]packet/match cnt: 12 12, LPF: 25  2858  sns
+[00125/01]  42:14.782  [INVN]pre_record_ts: b53bc6eb7, pre_meas_intvl: 80311  2777  sns
+[00125/01]  42:14.782  [INVN]meas_intvl 80313 est_intvl 80312   2806  sns
+[00125/01]  42:14.782  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.782  [INVN]a_sample 25, TS: b53d3b75f, LSB: 40 -53 2039, 3  2611  sns
+[00125/01]  42:14.782  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.782  [INVN]a_sample 26, TS: b53eb0007, LSB: 41 -57 2044, 3  2611  sns
+[00125/01]  42:14.782  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.782  [INVN]a_sample 27, TS: b540248af, LSB: 41 -53 2043, 3  2611  sns
+[00125/01]  42:14.782  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 28, TS: b54199157, LSB: 35 -52 2046, 3  2611  sns
+[00125/01]  42:14.783  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 29, TS: b5430d9ff, LSB: 39 -56 2041, 3  2611  sns
+[00125/01]  42:14.783  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 30, TS: b544822a7, LSB: 41 -56 2045, 3  2611  sns
+[00125/01]  42:14.783  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 31, TS: b545f6b4f, LSB: 39 -56 2039, 3  2611  sns
+[00125/01]  42:14.783  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 32, TS: b5476b3f7, LSB: 41 -55 2039, 3  2611  sns
+[00125/01]  42:14.783  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 33, TS: b548dfc9f, LSB: 41 -55 2042, 3  2611  sns
+[00125/01]  42:14.783  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 34, TS: b54a54547, LSB: 40 -54 2039, 3  2611  sns
+[00125/01]  42:14.783  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 35, TS: b54bc8def, LSB: 43 -53 2041, 3  2611  sns
+[00125/01]  42:14.783  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:14.783  [INVN]a_sample 36, TS: b54d3d697, LSB: 40 -54 2044, 3  2611  sns
+[00125/01]  42:15.735  [INVN]int TS: b55eb4336  4081  sns
+[00125/00]  42:15.735  [INVN]flush 0 ff cnt: 96  3799  sns
+[00125/00]  42:15.736  [INVN]valid buf_len/packet_cnt 96 12  2993  sns
+[00125/01]  42:15.737  [INVN]packet/match cnt: 12 12, LPF: 25  2858  sns
+[00125/01]  42:15.737  [INVN]pre_record_ts: b54d3d697, pre_meas_intvl: 80312  2777  sns
+[00125/01]  42:15.737  [INVN]meas_intvl 80317 est_intvl 80312   2806  sns
+[00125/01]  42:15.737  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.737  [INVN]a_sample 37, TS: b54eb1f43, LSB: 39 -52 2040, 3  2611  sns
+[00125/01]  42:15.737  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.737  [INVN]a_sample 38, TS: b550267ef, LSB: 38 -53 2047, 3  2611  sns
+[00125/01]  42:15.737  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.737  [INVN]a_sample 39, TS: b5519b09b, LSB: 40 -54 2042, 3  2611  sns
+[00125/01]  42:15.737  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.737  [INVN]a_sample 40, TS: b5530f947, LSB: 44 -55 2040, 3  2611  sns
+[00125/01]  42:15.737  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.737  [INVN]a_sample 41, TS: b554841f3, LSB: 41 -53 2045, 3  2611  sns
+[00125/01]  42:15.737  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.737  [INVN]a_sample 42, TS: b555f8a9f, LSB: 41 -51 2040, 3  2611  sns
+[00125/01]  42:15.737  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.738  [INVN]a_sample 43, TS: b5576d34b, LSB: 40 -53 2041, 3  2611  sns
+[00125/01]  42:15.738  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.738  [INVN]a_sample 44, TS: b558e1bf7, LSB: 37 -55 2040, 3  2611  sns
+[00125/01]  42:15.738  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.738  [INVN]a_sample 45, TS: b55a564a3, LSB: 40 -58 2041, 3  2611  sns
+[00125/01]  42:15.738  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.738  [INVN]a_sample 46, TS: b55bcad4f, LSB: 40 -52 2041, 3  2611  sns
+[00125/01]  42:15.738  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.738  [INVN]a_sample 47, TS: b55d3f5fb, LSB: 40 -58 2042, 3  2611  sns
+[00125/01]  42:15.738  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:15.738  [INVN]a_sample 48, TS: b55eb3ea7, LSB: 41 -57 2044, 3  2611  sns
+[00125/01]  42:16.690  [INVN]int TS: b5702ad37  4081  sns
+[00125/00]  42:16.690  [INVN]flush 0 ff cnt: 96  3799  sns
+[00125/00]  42:16.690  [INVN]valid buf_len/packet_cnt 96 12  2993  sns
+[00125/01]  42:16.690  [INVN]packet/match cnt: 12 12, LPF: 25  2858  sns
+[00125/01]  42:16.690  [INVN]pre_record_ts: b55eb3ea7, pre_meas_intvl: 80312  2777  sns
+[00125/01]  42:16.690  [INVN]meas_intvl 80319 est_intvl 80312   2806  sns
+[00125/01]  42:16.690  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.691  [INVN]a_sample 49, TS: b56028758, LSB: 42 -56 2045, 3  2611  sns
+[00125/01]  42:16.691  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.691  [INVN]a_sample 50, TS: b5619d009, LSB: 40 -56 2041, 3  2611  sns
+[00125/01]  42:16.691  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.691  [INVN]a_sample 51, TS: b563118ba, LSB: 45 -55 2041, 3  2611  sns
+[00125/01]  42:16.691  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.691  [INVN]a_sample 52, TS: b5648616b, LSB: 42 -55 2042, 3  2611  sns
+[00125/01]  42:16.691  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.691  [INVN]a_sample 53, TS: b565faa1c, LSB: 40 -55 2042, 3  2611  sns
+[00125/01]  42:16.691  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.691  [INVN]a_sample 54, TS: b5676f2cd, LSB: 44 -52 2040, 3  2611  sns
+[00125/01]  42:16.691  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.691  [INVN]a_sample 55, TS: b568e3b7e, LSB: 40 -55 2044, 3  2611  sns
+[00125/01]  42:16.691  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.691  [INVN]a_sample 56, TS: b56a5842f, LSB: 41 -54 2040, 3  2611  sns
+[00125/01]  42:16.691  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.692  [INVN]a_sample 57, TS: b56bccce0, LSB: 37 -55 2042, 3  2611  sns
+[00125/01]  42:16.692  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.692  [INVN]a_sample 58, TS: b56d41591, LSB: 40 -56 2045, 3  2611  sns
+[00125/01]  42:16.692  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.692  [INVN]a_sample 59, TS: b56eb5e42, LSB: 34 -51 2042, 3  2611  sns
+[00125/01]  42:16.692  [INVN]prev/current flush ticks 0 0  3165  sns
+[00125/02]  42:16.692  [INVN]a_sample 60, TS: b5702a6f3, LSB: 42 -55 2045, 3  2611  sns
+[00125/01]  42:16.905  [INVN](0x1)set_client_req 0xB24C5458(513) 0x0(0) rm=1  1453  sns
+[00125/01]  42:16.905  [INVN]flush_only 1 max_batch 1  0607  sns
+[00125/01]  42:16.905  [INVN]A: rr 0/100 sr 0/100 flush_period 0 gated client 0  1120  sns
+[00125/01]  42:16.905  [INVN]flush_only 1 max_batch 1  0607  sns
+[00125/01]  42:16.905  [INVN]G: rr 0/100 sr 0/100 flush_period 0  1129  sns
+[00125/01]  42:16.905  [INVN]T: rr 0 sr 0 flush_period 0  1211  sns
+[00125/01]  42:16.905  [INVN]a ngatd/gatd 0/0, g client 0, md client/en 0/0  1237  sns
+[00125/01]  42:16.905  [INVN]passive: client 0x0  1256  sns
+[00125/01]  42:16.905  [INVN]drv version 0x013012  4486  sns
+[00125/01]  42:16.905  [INVN]a/g desire en fifo 0 0, max_wmk 200  4508  sns
+[00125/01]  42:16.905  [INVN]desire sample/report/wakeup_sdc rate 0/100 0/100 0/100  4515  sns
+[00125/01]  42:16.905  [INVN]best match odr 0(0th)  4531  sns
+[00125/01]  42:16.905  [INVN]desire/dae wmk 1 4294967295  4638  sns
+[00125/01]  42:16.905  [INVN]A/G fifo disable  4659  sns
+[00125/01]  42:16.905  [INVN]desire a/g 0 0, fifo format 0  4665  sns
+[00125/01]  42:16.905  [INVN]odr changed 1, a/g off_to_on 0 0, need_flush 0x7  1609  sns
+[00125/01]  42:16.905  [INVN]flushing ff  1813  sns
+[00125/00]  42:16.907  [INVN]flush 1 ff cnt: 16  3799  sns
+[00125/00]  42:16.908  [INVN]valid buf_len/packet_cnt 16 2  2993  sns
+[00125/01]  42:16.908  [INVN]packet/match cnt: 2 2, LPF: 300  2858  sns
+[00125/01]  42:16.908  [INVN]pre_record_ts: b5702a6f3, pre_meas_intvl: 80312  2777  sns
+[00125/01]  42:16.908  [INVN]meas_intvl 110459 est_intvl 80412   2806  sns
+[00125/01]  42:16.908  [INVN]prev/current flush ticks 1765425152 13  3165  sns
+[00125/01]  42:16.908  [INVN]prev/current flush ticks 1765425152 13  3165  sns
+[00125/00]  42:16.908  [INVN]reconfig_hw enter with reset fifo 1  2086  sns
+[00125/01]  42:16.910  [INVN]ff header 0xff  2315  sns
+[00125/02]  42:16.910  [INVN]fifo disabled  2225  sns
+[00125/02]  42:16.912  [INVN]set_acc odr 50:15th, fdr 9:9, rc 0  1056  sns
+[00125/02]  42:16.915  [INVN]set_gyro odr 0:15th, fdr 0:0, rc 0  1110  sns
+[00125/02]  42:16.916  [INVN]acc bw 0  1376  sns
+[00125/02]  42:16.918  [INVN]acc pwr mode 0  0711  sns
+[00125/02]  42:16.921  [INVN]a/g/t desire/actual pub 0 0 0/0 0 0, irq rdy 1, 1st_sample 1, rc 0  2277  sns
+[00125/01]  42:16.922  [INVN](0x1)no client present, rm inst(0xb24ca258), hw_id=0  1802  sns
+[00125/00]  42:16.922  [INVN]icm4x6xx_inst_deinit inst_cleanup   0572  sns
+[00125/02]  42:16.923  [INVN]dae_if_deinit  1017  sns
+[00125/01]  42:16.923  [INVN]turn rails off s=1 rail_vote=1  0921  sns
